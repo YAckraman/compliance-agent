@@ -1,0 +1,42 @@
+<Solution>
+  <Folder Name="/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/Engine.Infrastructure/Engine.Infrastructure.csproj" />
+    <Project Path="src/BuildingBlocks/Engine.SharedKernel/Engine.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/Modules/" />
+  <Folder Name="/Modules/Assessments/">
+    <Project Path="src/Modules/Assessments/Engine.Modules.Assessments.Contracts/Engine.Modules.Assessments.Contracts.csproj" />
+    <Project Path="src/Modules/Assessments/Engine.Modules.Assessments/Engine.Modules.Assessments.csproj" />
+  </Folder>
+  <Folder Name="/Modules/Audit/">
+    <Project Path="src/Modules/Audit/Engine.Modules.Audit.Contracts/Engine.Modules.Audit.Contracts.csproj" />
+    <Project Path="src/Modules/Audit/Engine.Modules.Audit/Engine.Modules.Audit.csproj" />
+  </Folder>
+  <Folder Name="/Modules/Evidence/">
+    <Project Path="src/Modules/Evidence/Engine.Modules.Evidence.Contracts/Engine.Modules.Evidence.Contracts.csproj" />
+    <Project Path="src/Modules/Evidence/Engine.Modules.Evidence/Engine.Modules.Evidence.csproj" />
+  </Folder>
+  <Folder Name="/Modules/Identity/">
+    <Project Path="src/Modules/Identity/Engine.Modules.Identity.Contracts/Engine.Modules.Identity.Contracts.csproj" />
+    <Project Path="src/Modules/Identity/Engine.Modules.Identity/Engine.Modules.Identity.csproj" />
+  </Folder>
+  <Folder Name="/Modules/Packs/">
+    <Project Path="src/Modules/Packs/Engine.Modules.Packs.Contracts/Engine.Modules.Packs.Contracts.csproj" />
+    <Project Path="src/Modules/Packs/Engine.Modules.Packs/Engine.Modules.Packs.csproj" />
+  </Folder>
+  <Folder Name="/Modules/Reports/">
+    <Project Path="src/Modules/Reports/Engine.Modules.Reports.Contracts/Engine.Modules.Reports.Contracts.csproj" />
+    <Project Path="src/Modules/Reports/Engine.Modules.Reports/Engine.Modules.Reports.csproj" />
+  </Folder>
+  <Folder Name="/Modules/Tasks/">
+    <Project Path="src/Modules/Tasks/Engine.Modules.Tasks.Contracts/Engine.Modules.Tasks.Contracts.csproj" />
+    <Project Path="src/Modules/Tasks/Engine.Modules.Tasks/Engine.Modules.Tasks.csproj" />
+  </Folder>
+  <Folder Name="/Modules/Tenancy/">
+    <Project Path="src/Modules/Tenancy/Engine.Modules.Tenancy.Contracts/Engine.Modules.Tenancy.Contracts.csproj" />
+    <Project Path="src/Modules/Tenancy/Engine.Modules.Tenancy/Engine.Modules.Tenancy.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Engine.Host/Engine.Host.csproj" />
+  </Folder>
+</Solution>

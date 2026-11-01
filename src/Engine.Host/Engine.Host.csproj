@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modules\Identity\Engine.Modules.Identity\Engine.Modules.Identity.csproj" />
+    <ProjectReference Include="..\Modules\Tenancy\Engine.Modules.Tenancy\Engine.Modules.Tenancy.csproj" />
+    <ProjectReference Include="..\Modules\Packs\Engine.Modules.Packs\Engine.Modules.Packs.csproj" />
+    <ProjectReference Include="..\Modules\Assessments\Engine.Modules.Assessments\Engine.Modules.Assessments.csproj" />
+    <ProjectReference Include="..\Modules\Evidence\Engine.Modules.Evidence\Engine.Modules.Evidence.csproj" />
+    <ProjectReference Include="..\Modules\Tasks\Engine.Modules.Tasks\Engine.Modules.Tasks.csproj" />
+    <ProjectReference Include="..\Modules\Audit\Engine.Modules.Audit\Engine.Modules.Audit.csproj" />
+    <ProjectReference Include="..\Modules\Reports\Engine.Modules.Reports\Engine.Modules.Reports.csproj" />
+  </ItemGroup>
+
+</Project>
